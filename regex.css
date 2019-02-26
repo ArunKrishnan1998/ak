@@ -1,0 +1,24 @@
+.test
+{
+  padding:5px;
+  outline: none !important;
+}
+
+input.valid {
+  border-width: 3px;
+  border-color: green;
+}
+
+input.invalid {
+  border-width: 3px;
+  border-color: red;
+}
+
+input + p {
+  color: orange;
+  opacity: 0;
+}
+
+input.invalid + p {
+  opacity: 1;
+}
